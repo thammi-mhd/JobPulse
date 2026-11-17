@@ -1,0 +1,53 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Code quality tools
+.mypy_cache/
+.ruff_cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# User-uploaded files (private)
+storage/*
+!storage/.gitkeep
+!storage/resumes/
+storage/resumes/*
+!storage/resumes/.gitkeep
+!storage/profile_images/
+storage/profile_images/*
+!storage/profile_images/.gitkeep
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
